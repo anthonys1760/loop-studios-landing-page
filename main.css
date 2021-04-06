@@ -1,42 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 body {
     background: url('images/desktop/image-hero.jpg');
     padding: 100px;
-}
-
-img {
-    background:;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .header {
     display: flex;
     justify-content: flex-end;
-}
-
-.header {
-   color: white;
+    color: white;
 }
 
 .box-1 {
-    
     flex-grow: 1;
 }
 
 .box-2 {
-    border: 1px solid black;
+    margin-right: 40px;
 }
 
 .box-3 {
-    border: 1px solid black;
+    margin-right: 40px;
 }
 
 .box-4 {
-    border: 1px solid black;
+    margin-right: 40px;
 }
 
 .box-5 {
-    border: 1px solid black;
+    margin-right: 40px;
 }
 
-p {
+p, h1 {
     color: white !important;
+    font-family: 'Alata', sans-serif;
 }
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+a:visited {
+    color: white;
+}
+
+#experience {
+    padding: 50px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 72px;
+    border: 2px solid white;
+    width: 50%;
+}
+
