@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 body {
-    background: url('images/desktop/image-hero.jpg');
-    padding: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  
 }
 
 a:hover {
@@ -14,8 +11,14 @@ a:hover {
 
 .header {
     display: flex;
+    padding: 50px;
     justify-content: flex-end;
     color: white;
+    background: url('images/desktop/image-hero.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .box-1 {
@@ -39,7 +42,7 @@ a:hover {
 }
 
 p, h1 {
-    color: white !important;
+    color: black; !important;
     font-family: 'Alata', sans-serif;
 }
 
@@ -64,9 +67,9 @@ a:visited {
     width: 35%;
 }
 
-.header-2 {
+/* .header-2 {
     padding-top: 70px;
-}
+} */
 
 .section {
  
